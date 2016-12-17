@@ -1,0 +1,1148 @@
+2016-12-17 17:36:18.588 DEBUG 88989 --- [main] .b.l.ClasspathLoggingApplicationListener : Application started with classpath: [file:/Applications/IntelliJ%20IDEA.app/Contents/lib/idea_rt.jar, file:/Applications/IntelliJ%20IDEA.app/Contents/plugins/junit/lib/junit-rt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/deploy.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/cldrdata.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/dnsns.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/jaccess.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/jfxrt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/localedata.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/nashorn.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/sunec.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext/zipfs.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/javaws.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfxswt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/management-agent.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/plugin.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/lib/ant-javafx.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/lib/dt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/lib/javafx-mx.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/lib/jconsole.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/lib/packager.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/lib/sa-jdi.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/lib/tools.jar, file:/Users/Evelan/Programowanie/spring-oauth2-example/target/test-classes/, file:/Users/Evelan/Programowanie/spring-oauth2-example/target/classes/, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-security/1.4.2.RELEASE/spring-boot-starter-security-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar, file:/Users/Evelan/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar, file:/Users/Evelan/.m2/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar, file:/Users/Evelan/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar, file:/Users/Evelan/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/security/spring-security-web/4.1.3.RELEASE/spring-security-web-4.1.3.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.4.2.RELEASE/spring-boot-starter-web-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.4.2.RELEASE/spring-boot-starter-tomcat-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar, file:/Users/Evelan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.6/tomcat-embed-el-8.5.6.jar, file:/Users/Evelan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.6/tomcat-embed-websocket-8.5.6.jar, file:/Users/Evelan/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar, file:/Users/Evelan/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/Users/Evelan/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar, file:/Users/Evelan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar, file:/Users/Evelan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar, file:/Users/Evelan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-webmvc/4.3.4.RELEASE/spring-webmvc-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.12.RELEASE/spring-security-oauth2-2.0.12.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/security/spring-security-core/4.1.3.RELEASE/spring-security-core-4.1.3.RELEASE.jar, file:/Users/Evelan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/Users/Evelan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/Users/Evelan/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar, file:/Users/Evelan/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar, file:/Users/Evelan/.m2/repository/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar, file:/Users/Evelan/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-devtools/1.4.2.RELEASE/spring-boot-devtools-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.4.2.RELEASE/spring-boot-starter-test-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-test/1.4.2.RELEASE/spring-boot-test-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.4.2.RELEASE/spring-boot-test-autoconfigure-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar, file:/Users/Evelan/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar, file:/Users/Evelan/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar, file:/Users/Evelan/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar, file:/Users/Evelan/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/Users/Evelan/.m2/repository/org/assertj/assertj-core/2.5.0/assertj-core-2.5.0.jar, file:/Users/Evelan/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/Users/Evelan/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/Users/Evelan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/Users/Evelan/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, file:/Users/Evelan/.m2/repository/org/skyscreamer/jsonassert/1.3.0/jsonassert-1.3.0.jar, file:/Users/Evelan/.m2/repository/org/json/json/20140107/json-20140107.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.4.2.RELEASE/spring-boot-starter-data-jpa-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.4.2.RELEASE/spring-boot-starter-aop-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar, file:/Users/Evelan/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.2.RELEASE/spring-boot-starter-jdbc-1.4.2.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.5.6/tomcat-jdbc-8.5.6.jar, file:/Users/Evelan/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.6/tomcat-juli-8.5.6.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/hibernate/hibernate-core/5.0.11.Final/hibernate-core-5.0.11.Final.jar, file:/Users/Evelan/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/Users/Evelan/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar, file:/Users/Evelan/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, file:/Users/Evelan/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar, file:/Users/Evelan/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, file:/Users/Evelan/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar, file:/Users/Evelan/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar, file:/Users/Evelan/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.11.Final/hibernate-entitymanager-5.0.11.Final.jar, file:/Users/Evelan/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar, file:/Users/Evelan/.m2/repository/org/springframework/data/spring-data-jpa/1.10.5.RELEASE/spring-data-jpa-1.10.5.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-orm/4.3.4.RELEASE/spring-orm-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar, file:/Users/Evelan/.m2/repository/org/springframework/spring-aspects/4.3.4.RELEASE/spring-aspects-4.3.4.RELEASE.jar, file:/Users/Evelan/.m2/repository/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40.jar, file:/Users/Evelan/.m2/repository/com/querydsl/querydsl-apt/4.1.0/querydsl-apt-4.1.0.jar, file:/Users/Evelan/.m2/repository/com/querydsl/querydsl-codegen/4.1.0/querydsl-codegen-4.1.0.jar, file:/Users/Evelan/.m2/repository/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar, file:/Users/Evelan/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.jar, file:/Users/Evelan/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, file:/Users/Evelan/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar, file:/Users/Evelan/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar, file:/Users/Evelan/.m2/repository/com/querydsl/querydsl-jpa/4.1.0/querydsl-jpa-4.1.0.jar, file:/Users/Evelan/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar, file:/Users/Evelan/.m2/repository/com/querydsl/querydsl-core/4.1.0/querydsl-core-4.1.0.jar, file:/Users/Evelan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, file:/Users/Evelan/.m2/repository/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar, file:/Users/Evelan/.m2/repository/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar, file:/Users/Evelan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar, file:/Users/Evelan/.m2/repository/io/springfox/springfox-swagger2/2.6.1/springfox-swagger2-2.6.1.jar, file:/Users/Evelan/.m2/repository/io/swagger/swagger-annotations/1.5.10/swagger-annotations-1.5.10.jar, file:/Users/Evelan/.m2/repository/io/swagger/swagger-models/1.5.10/swagger-models-1.5.10.jar, file:/Users/Evelan/.m2/repository/io/springfox/springfox-spi/2.6.1/springfox-spi-2.6.1.jar, file:/Users/Evelan/.m2/repository/io/springfox/springfox-core/2.6.1/springfox-core-2.6.1.jar, file:/Users/Evelan/.m2/repository/io/springfox/springfox-schema/2.6.1/springfox-schema-2.6.1.jar, file:/Users/Evelan/.m2/repository/io/springfox/springfox-swagger-common/2.6.1/springfox-swagger-common-2.6.1.jar, file:/Users/Evelan/.m2/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar, file:/Users/Evelan/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar, file:/Users/Evelan/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar, file:/Users/Evelan/.m2/repository/org/mapstruct/mapstruct/1.0.0.Final/mapstruct-1.0.0.Final.jar, file:/Users/Evelan/.m2/repository/io/springfox/springfox-swagger-ui/2.6.1/springfox-swagger-ui-2.6.1.jar, file:/Users/Evelan/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar]
+2016-12-17 17:36:18.675  INFO 88989 --- [main] me.jpomykala.oauth2.OAuthTest            : Starting OAuthTest on MBP-Jakub.lan with PID 88989 (started by Evelan in /Users/Evelan/Programowanie/spring-oauth2-example)
+2016-12-17 17:36:18.676  INFO 88989 --- [main] me.jpomykala.oauth2.OAuthTest            : No active profile set, falling back to default profiles: default
+2016-12-17 17:36:18.676 DEBUG 88989 --- [main] o.s.boot.SpringApplication               : Loading source class me.jpomykala.oauth2.OAuthExampleApplication
+2016-12-17 17:36:18.720 DEBUG 88989 --- [main] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'file:/Users/Evelan/Programowanie/spring-oauth2-example/target/classes/application.properties' (classpath:/application.properties)
+2016-12-17 17:36:18.720 DEBUG 88989 --- [main] o.s.b.c.c.ConfigFileApplicationListener  : Skipped (empty) config file 'file:/Users/Evelan/Programowanie/spring-oauth2-example/target/classes/application.properties' (classpath:/application.properties) for profile default
+2016-12-17 17:36:18.725  INFO 88989 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1972e513: startup date [Sat Dec 17 17:36:18 CET 2016]; root of context hierarchy
+2016-12-17 17:36:20.242  INFO 88989 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-12-17 17:36:20.321  INFO 88989 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19b1cc1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-17 17:36:20.795 DEBUG 88989 --- [main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'me.jpomykala.oauth2'. Automatic @Repository and @Entity scanning is enabled.
+2016-12-17 17:36:20.824  INFO 88989 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-17 17:36:20.845  INFO 88989 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-17 17:36:20.914  INFO 88989 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-17 17:36:20.916  INFO 88989 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-17 17:36:20.918  INFO 88989 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-17 17:36:20.962  INFO 88989 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-17 17:36:21.400  INFO 88989 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-12-17 17:36:22.037  INFO 88989 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-12-17 17:36:22.225  INFO 88989 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-12-17 17:36:22.885  INFO 88989 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/authorize]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.authorize(java.util.Map<java.lang.String, java.lang.Object>,java.util.Map<java.lang.String, java.lang.String>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+2016-12-17 17:36:22.886  INFO 88989 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/authorize],methods=[POST],params=[user_oauth_approval]}" onto public org.springframework.web.servlet.View org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.approveOrDeny(java.util.Map<java.lang.String, java.lang.String>,java.util.Map<java.lang.String, ?>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+2016-12-17 17:36:22.888  INFO 88989 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/token],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.security.oauth2.common.OAuth2AccessToken> org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.getAccessToken(java.security.Principal,java.util.Map<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2016-12-17 17:36:22.888  INFO 88989 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/token],methods=[POST]}" onto public org.springframework.http.ResponseEntity<org.springframework.security.oauth2.common.OAuth2AccessToken> org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(java.security.Principal,java.util.Map<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2016-12-17 17:36:22.889  INFO 88989 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/check_token]}" onto public java.util.Map<java.lang.String, ?> org.springframework.security.oauth2.provider.endpoint.CheckTokenEndpoint.checkToken(java.lang.String)
+2016-12-17 17:36:22.889  INFO 88989 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/confirm_access]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelApprovalEndpoint.getAccessConfirmation(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2016-12-17 17:36:22.890  INFO 88989 --- [main] .s.o.p.e.FrameworkEndpointHandlerMapping : Mapped "{[/oauth/error]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelErrorEndpoint.handleError(javax.servlet.http.HttpServletRequest)
+2016-12-17 17:36:22.929  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.util.Map<java.lang.String, java.lang.String> me.jpomykala.oauth2.rest.HelloRestController.recognizeUser(me.jpomykala.oauth2.model.user.User)
+2016-12-17 17:36:22.929  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/posts],methods=[GET]}" onto public org.springframework.data.domain.Page<me.jpomykala.oauth2.model.post.Post> me.jpomykala.oauth2.rest.PostsRestController.fetchAllPosts(java.lang.Integer,java.lang.Integer)
+2016-12-17 17:36:22.929  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2016-12-17 17:36:22.931  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2016-12-17 17:36:22.932  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2016-12-17 17:36:22.932  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2016-12-17 17:36:22.936  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-17 17:36:22.936  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-17 17:36:23.266 DEBUG 88989 --- [main] .s.BootGlobalAuthenticationConfiguration : Eagerly initializing {OAuthExampleApplication=me.jpomykala.oauth2.OAuthExampleApplication$$EnhancerBySpringCGLIB$$9e11786f@3005623b}
+2016-12-17 17:36:23.384  INFO 88989 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ff8e744, org.springframework.security.web.context.SecurityContextPersistenceFilter@31e3c34, org.springframework.security.web.header.HeaderWriterFilter@79273a4f, org.springframework.security.web.authentication.logout.LogoutFilter@11f9b95a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57bac3f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13d10057, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6866e740, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@409395b9, org.springframework.security.web.session.SessionManagementFilter@50bb1c1f, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2095c331]
+2016-12-17 17:36:23.406  INFO 88989 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@5c9e3d01, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1dc9f5ad, org.springframework.security.web.context.SecurityContextPersistenceFilter@670c171c, org.springframework.security.web.header.HeaderWriterFilter@7ccf6114, org.springframework.security.web.authentication.logout.LogoutFilter@4148ce43, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@51df2a41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61d42275, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6614289a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a2d66e, org.springframework.security.web.session.SessionManagementFilter@3df3410a, org.springframework.security.web.access.ExceptionTranslationFilter@2a259f6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f1fec57]
+2016-12-17 17:36:23.449  INFO 88989 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@785d6a98, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dde1bf5, org.springframework.security.web.header.HeaderWriterFilter@4b22214d, org.springframework.security.web.csrf.CsrfFilter@4c79ca55, org.springframework.security.web.authentication.logout.LogoutFilter@1ea96ff2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35841d6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@335cdd2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@537451d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b56b517, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1124dd79, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@614d7fbf, org.springframework.security.web.session.SessionManagementFilter@498b611e, org.springframework.security.web.access.ExceptionTranslationFilter@3c4ad54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fa47368]
+2016-12-17 17:36:23.485  INFO 88989 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-17 17:36:23.485  INFO 88989 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-17 17:36:23.548  INFO 88989 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1972e513: startup date [Sat Dec 17 17:36:18 CET 2016]; root of context hierarchy
+2016-12-17 17:36:24.126  INFO 88989 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-12-17 17:36:24.126  INFO 88989 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2016-12-17 17:36:24.149  INFO 88989 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2016-12-17 17:36:24.162  INFO 88989 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2016-12-17 17:36:24.519 DEBUG 88989 --- [main] utoConfigurationReportLoggingInitializer : 
+
+
+=========================
+AUTO-CONFIGURATION REPORT
+=========================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.context.annotation.EnableAspectJAutoProxy', 'org.aspectj.lang.annotation.Aspect', 'org.aspectj.lang.reflect.Advice' (OnClassCondition)
+      - @ConditionalOnProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.JdkDynamicAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=false) matched (OnPropertyCondition)
+
+   BootGlobalAuthenticationConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.authentication.configurers.GlobalAuthenticationConfigurerAdapter' (OnClassCondition)
+
+   DataSourceAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   DataSourceAutoConfiguration#dataSourceInitializer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceConfiguration.Tomcat matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+      - @ConditionalOnProperty (spring.datasource.type=org.apache.tomcat.jdbc.pool.DataSource) matched (OnPropertyCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.TransactionManagementConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration matched:
+      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   DevToolsDataSourceAutoConfiguration.DatabaseShutdownExecutorJpaDependencyConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.orm.jpa.AbstractEntityManagerFactoryBean; SearchStrategy: all) found bean '&entityManagerFactory' (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet; types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found beans 'dispatcherServlet', 'dispatcherServlet' (OnBeanCondition)
+
+   EmbeddedServletContainerAutoConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   EmbeddedServletContainerAutoConfiguration.EmbeddedTomcat matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.apache.catalina.startup.Tomcat' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.context.embedded.EmbeddedServletContainerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.DefaultErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnProperty (server.error.whitelabel.enabled) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   HibernateJpaAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'org.springframework.transaction.annotation.EnableTransactionManagement', 'javax.persistence.EntityManager' (OnClassCondition)
+      - HibernateEntityManager found class 'org.hibernate.ejb.HibernateEntityManager' (HibernateJpaAutoConfiguration.HibernateEntityManagerCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.http.encoding.enabled) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration#messageConverters matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.HttpMessageConverters; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration matched:
+      - @ConditionalOnClass found required classes 'com.fasterxml.jackson.databind.ObjectMapper', 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched:
+      - @ConditionalOnClass found required classes 'com.fasterxml.jackson.databind.ObjectMapper', 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched:
+      - @ConditionalOnClass found required classes 'com.fasterxml.jackson.databind.ObjectMapper', 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.http.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration#jdbcTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration#namedParameterJdbcTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,javax.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactoryBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#jpaVendorAdapter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration.JpaWebConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.jpa.open-in-view=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JtaAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.transaction.Transaction' (OnClassCondition)
+      - @ConditionalOnProperty (spring.jta.enabled) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement' (OnClassCondition)
+      - @ConditionalOnProperty (spring.http.multipart.enabled) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: javax.servlet.MultipartConfigElement; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+   OAuth2AutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.oauth2.common.OAuth2AccessToken', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter' (OnClassCondition)
+
+   OAuth2ResourceServerConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer', 'org.springframework.boot.autoconfigure.security.SecurityProperties' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+      - OAuth ResourceServer Condition found class org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerEndpointsConfiguration (OAuth2ResourceServerConfiguration.ResourceServerCondition)
+      - @ConditionalOnBean (types: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration; SearchStrategy: all) found bean 'org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration' (OnBeanCondition)
+
+   OAuth2ResourceServerConfiguration.AuthorizationServerEndpointsConfigurationBeanCondition matched:
+      - @ConditionalOnBean (types: org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerEndpointsConfiguration; SearchStrategy: all) found bean 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerEndpointsConfiguration' (OnBeanCondition)
+
+   OAuth2RestOperationsConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client' (OnClassCondition)
+      - OAuth Client ID did not find security.oauth2.client.client-id property (OAuth2RestOperationsConfiguration.OAuth2ClientIdCondition)
+
+   OAuth2RestOperationsConfiguration.RequestScopedConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.config.annotation.web.configuration.OAuth2ClientConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched:
+      - @ConditionalOnProperty (spring.dao.exceptiontranslation.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   RedisCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration automatic cache type (CacheCondition)
+
+   SecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.authentication.AuthenticationManager', 'org.springframework.security.config.annotation.authentication.configurers.GlobalAuthenticationConfigurerAdapter' (OnClassCondition)
+
+   SecurityAutoConfiguration#authenticationEventPublisher matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationEventPublisher; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SecurityAutoConfiguration#securityProperties matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.security.SecurityProperties; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SecurityFilterAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer', 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   SecurityFilterAutoConfiguration#securityFilterChainRegistration matched:
+      - @ConditionalOnBean (names: springSecurityFilterChain; SearchStrategy: all) found bean 'springSecurityFilterChain' (OnBeanCondition)
+
+   ServerPropertiesAutoConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   ServerPropertiesAutoConfiguration#serverProperties matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.ServerProperties; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   SimpleCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
+
+   SpringDataWebAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.transaction.support.TransactionTemplate', 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a primary bean from beans 'transactionManager' (OnBeanCondition)
+
+   TransactionAutoConfiguration#transactionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebClientAutoConfiguration.RestTemplateConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate' (OnClassCondition)
+
+   WebClientAutoConfiguration.RestTemplateConfiguration#restTemplateBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSocketAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'javax.websocket.server.ServerContainer' (OnClassCondition)
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   WebSocketAutoConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   WebSocketAutoConfiguration.TomcatWebSocketConfiguration#websocketContainerCustomizer matched:
+      - @ConditionalOnJava (1.7 or newer) found 1.8 (OnJavaCondition)
+      - @ConditionalOnMissingBean (names: websocketContainerCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ActiveMQAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.jms.ConnectionFactory', 'org.apache.activemq.ActiveMQConnectionFactory' (OnClassCondition)
+
+   AopAutoConfiguration.CglibAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=true) did not find property 'proxy-target-class' (OnPropertyCondition)
+
+   ArtemisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.jms.ConnectionFactory', 'org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory' (OnClassCondition)
+
+   AtomikosJtaConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.atomikos.icatch.jta.UserTransactionManager' (OnClassCondition)
+
+   AuthenticationManagerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager; SearchStrategy: all) found bean 'authenticationManagerBean' (OnBeanCondition)
+
+   BatchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
+
+   BitronixJtaConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'bitronix.tm.jndi.BitronixContext' (OnClassCondition)
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerJpaDependencyConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.github.benmanes.caffeine.cache.Caffeine', 'org.springframework.cache.caffeine.CaffeineCacheManager' (OnClassCondition)
+
+   CassandraAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.driver.core.Cluster' (OnClassCondition)
+
+   CassandraDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.datastax.driver.core.Cluster', 'org.springframework.data.cassandra.core.CassandraAdminOperations' (OnClassCondition)
+
+   CassandraRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.datastax.driver.core.Session', 'org.springframework.data.cassandra.repository.CassandraRepository' (OnClassCondition)
+
+   CloudAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.cloud.config.java.CloudScanConfiguration' (OnClassCondition)
+
+   CouchbaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.CouchbaseBucket', 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.Bucket', 'com.couchbase.client.spring.cache.CouchbaseCacheManager' (OnClassCondition)
+
+   CouchbaseDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.Bucket', 'org.springframework.data.couchbase.repository.CouchbaseRepository' (OnClassCondition)
+
+   CouchbaseRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.Bucket', 'org.springframework.data.couchbase.repository.CouchbaseRepository' (OnClassCondition)
+
+   DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
+      Did not match:
+         - EmbeddedDataSource found supported pooled data source (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+   DataSourceAutoConfiguration.TomcatDataSourceJmxConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.jmx-enabled) did not find property 'jmx-enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.apache.tomcat.jdbc.pool.DataSourceProxy' (OnClassCondition)
+
+   DataSourceConfiguration.Dbcp:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Dbcp2:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Generic:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (OnPropertyCondition)
+
+   DataSourceConfiguration.Hikari:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcpPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration#transactionManager:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found bean 'transactionManager' (OnBeanCondition)
+
+   DeviceDelegatingViewResolverAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.mobile.device.view.LiteDeviceDelegatingViewResolver' (OnClassCondition)
+
+   DeviceResolverAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.mobile.device.DeviceResolverHandlerInterceptor', 'org.springframework.mobile.device.DeviceHandlerMethodArgumentResolver' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   EhCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'net.sf.ehcache.Cache', 'org.springframework.cache.ehcache.EhCacheCacheManager' (OnClassCondition)
+
+   ElasticsearchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.elasticsearch.client.Client', 'org.springframework.data.elasticsearch.client.TransportClientFactoryBean', 'org.springframework.data.elasticsearch.client.NodeClientFactoryBean' (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.elasticsearch.client.Client', 'org.springframework.data.elasticsearch.core.ElasticsearchTemplate' (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.elasticsearch.client.Client', 'org.springframework.data.elasticsearch.repository.ElasticsearchRepository' (OnClassCondition)
+
+   EmbeddedMongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.mongodb.Mongo', 'de.flapdoodle.embed.mongo.MongodStarter' (OnClassCondition)
+
+   EmbeddedServletContainerAutoConfiguration.EmbeddedJetty:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   EmbeddedServletContainerAutoConfiguration.EmbeddedUndertow:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   FacebookAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.config.annotation.SocialConfigurerAdapter', 'org.springframework.social.facebook.connect.FacebookConnectionFactory' (OnClassCondition)
+
+   FallbackWebSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (security.basic.enabled=false) did not find property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'freemarker.template.Configuration', 'org.springframework.ui.freemarker.FreeMarkerConfigurationFactory' (OnClassCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GsonAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GuavaCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.cache.guava.GuavaCacheManager' (OnClassCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.h2.server.web.WebServlet' (OnClassCondition)
+
+   HazelcastAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.hazelcast.core.HazelcastInstance', 'com.hazelcast.spring.cache.HazelcastCacheManager' (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HornetQAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.jms.ConnectionFactory', 'org.hornetq.api.jms.HornetQJMSClient' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.Resource' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   IntegrationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.cache.Caching', 'org.springframework.cache.jcache.JCacheCacheManager' (OnClassCondition)
+
+   JacksonAutoConfiguration.JodaDateTimeJacksonConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.joda.time.DateTime', 'com.fasterxml.jackson.datatype.joda.ser.DateTimeSerializer', 'com.fasterxml.jackson.datatype.joda.cfg.JacksonJodaDateFormat' (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JerseyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.glassfish.jersey.server.spring.SpringComponentProvider' (OnClassCondition)
+
+   JestAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.searchbox.client.JestClient' (OnClassCondition)
+
+   JmsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jmx.enabled=true) found different value in property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'jndi-name' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JndiJtaConfiguration:
+      Did not match:
+         - @ConditionalOnJndi JNDI environment is not available (OnJndiCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.transaction.jta.JtaTransactionManager' (OnClassCondition)
+
+   JooqAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) found beans '&userRepository', '&postsRepository', 'org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension#0' (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+         - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+
+   LinkedInAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.config.annotation.SocialConfigurerAdapter', 'org.springframework.social.linkedin.connect.LinkedInConnectionFactory' (OnClassCondition)
+
+   LiquibaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'liquibase.integration.spring.SpringLiquibase' (OnClassCondition)
+
+   LocalDevToolsAutoConfiguration:
+      Did not match:
+         - Initialized Restarter Condition initialized without URLs (OnInitializedRestarterCondition)
+
+   MailSenderAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.mail.internet.MimeMessage' (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.mail.test-connection) did not find property 'test-connection' (OnPropertyCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.MongoClient' (OnClassCondition)
+
+   MongoDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.mongodb.Mongo', 'org.springframework.data.mongodb.core.MongoTemplate' (OnClassCondition)
+
+   MongoRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.mongodb.Mongo', 'org.springframework.data.mongodb.repository.MongoRepository' (OnClassCondition)
+
+   MustacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   NarayanaJtaConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.arjuna.ats.jta.UserTransaction', 'org.jboss.tm.XAResourceRecoveryRegistry' (OnClassCondition)
+
+   Neo4jDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.neo4j.ogm.session.Neo4jSession', 'org.springframework.data.neo4j.template.Neo4jOperations' (OnClassCondition)
+
+   Neo4jRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.neo4j.ogm.session.Neo4jSession', 'org.springframework.data.neo4j.repository.GraphRepository' (OnClassCondition)
+
+   OAuth2AuthorizationServerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurer; SearchStrategy: all) found bean 'authorizationServerConfig' (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer' (OnClassCondition)
+
+   OAuth2MethodSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.oauth2.common.OAuth2AccessToken' (OnClassCondition)
+
+   OAuth2ResourceServerConfiguration#resourceServer:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurer; SearchStrategy: all) found bean 'resourceServerConfig' (OnBeanCondition)
+
+   OAuth2RestOperationsConfiguration.SessionScopedConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.security.oauth2.config.annotation.web.configuration.OAuth2ClientConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   OAuth2RestOperationsConfiguration.SingletonScopedConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication found 'session' scope (OnWebApplicationCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   RabbitAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.amqp.rabbit.core.RabbitTemplate', 'com.rabbitmq.client.Channel' (OnClassCondition)
+
+   ReactorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'reactor.spring.context.config.EnableReactor', 'reactor.Environment' (OnClassCondition)
+
+   RedisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.data.redis.connection.jedis.JedisConnection', 'org.springframework.data.redis.core.RedisOperations', 'redis.clients.jedis.Jedis' (OnClassCondition)
+
+   RedisRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'redis.clients.jedis.Jedis', 'org.springframework.data.redis.repository.configuration.EnableRedisRepositories' (OnClassCondition)
+
+   RemoteDevToolsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.devtools.remote.secret) did not find property 'secret' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.servlet.Filter', 'org.springframework.http.server.ServerHttpRequest' (OnClassCondition)
+
+   RepositoryRestMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
+
+   ResourceServerTokenServicesConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerEndpointsConfiguration; SearchStrategy: all) found bean 'org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerEndpointsConfiguration' (OnBeanCondition)
+
+   ResourceServerTokenServicesConfiguration.JwtTokenServicesConfiguration:
+      Did not match:
+         - OAuth JWT Condition did not find provided public key (ResourceServerTokenServicesConfiguration.JwtTokenCondition)
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   ResourceServerTokenServicesConfiguration.RemoteTokenServicesConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - OAuth JWT Condition did not find provided public key (ResourceServerTokenServicesConfiguration.NotJwtTokenCondition)
+
+   ResourceServerTokenServicesConfiguration.RemoteTokenServicesConfiguration.SocialTokenServicesConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.social.connect.support.OAuth2ConnectionFactory' (OnClassCondition)
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration$RemoteTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   ResourceServerTokenServicesConfiguration.RemoteTokenServicesConfiguration.TokenInfoServicesConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration$RemoteTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - OAuth TokenInfo Condition did not find user-info-uri property (ResourceServerTokenServicesConfiguration.TokenInfoCondition)
+
+   ResourceServerTokenServicesConfiguration.RemoteTokenServicesConfiguration.UserInfoTokenServicesConfiguration:
+      Did not match:
+         - OAuth TokenInfo Condition did not find user-info-uri property (ResourceServerTokenServicesConfiguration.NotTokenInfoCondition)
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+         - Ancestor org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration$RemoteTokenServicesConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnMissingClass did not find unwanted class 'org.springframework.social.connect.support.OAuth2ConnectionFactory' (OnClassCondition)
+
+   SecurityDataConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.data.repository.query.SecurityEvaluationContextExtension' (OnClassCondition)
+
+   SecurityFilterAutoConfiguration#securityProperties:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.security.SecurityProperties; SearchStrategy: all) found bean 'securityProperties' (OnBeanCondition)
+
+   SendGridAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
+
+   SessionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
+
+   SitePreferenceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.mobile.device.site.SitePreferenceHandlerInterceptor', 'org.springframework.mobile.device.site.SitePreferenceHandlerMethodArgumentResolver' (OnClassCondition)
+
+   SocialWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.connect.web.ConnectController', 'org.springframework.social.config.annotation.SocialConfigurerAdapter' (OnClassCondition)
+
+   SolrAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.apache.solr.client.solrj.impl.HttpSolrClient', 'org.apache.solr.client.solrj.impl.CloudSolrClient' (OnClassCondition)
+
+   SolrRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.apache.solr.client.solrj.SolrClient', 'org.springframework.data.solr.repository.SolrRepository' (OnClassCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.application.admin.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration; SearchStrategy: all) found bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity', 'org.springframework.security.web.AuthenticationEntryPoint' (OnClassCondition)
+         - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   SpringBootWebSecurityConfiguration.ApplicationNoWebSecurityConfigurerAdapter:
+      Did not match:
+         - @ConditionalOnProperty (security.basic.enabled=false) did not find property 'enabled' (OnPropertyCondition)
+         - Ancestor org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   SpringBootWebSecurityConfiguration.ApplicationWebSecurityConfigurerAdapter:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (security.basic.enabled) matched (OnPropertyCondition)
+
+   ThymeleafAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring4.SpringTemplateEngine' (OnClassCondition)
+
+   TwitterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.config.annotation.SocialConfigurerAdapter', 'org.springframework.social.twitter.connect.TwitterConnectionFactory' (OnClassCondition)
+
+   VelocityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.apache.velocity.app.VelocityEngine', 'org.springframework.ui.velocity.VelocityEngineFactory' (OnClassCondition)
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter' (OnClassCondition)
+         - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+         - Ancestor org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (spring.mvc.favicon.enabled) matched (OnPropertyCondition)
+
+   WebServicesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
+
+   WebSocketAutoConfiguration.JettyWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer' (OnClassCondition)
+
+   WebSocketAutoConfiguration.UndertowWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.undertow.websockets.jsr.Bootstrap' (OnClassCondition)
+
+   WebSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.boot.jta.XADataSourceWrapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'javax.transaction.TransactionManager', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+2016-12-17 17:36:24.527 DEBUG 88989 --- [main] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
+2016-12-17 17:36:24.528  INFO 88989 --- [main] me.jpomykala.oauth2.OAuthTest            : Started OAuthTest in 6.421 seconds (JVM running for 7.051)
+2016-12-17 17:36:24.556  INFO 88989 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-12-17 17:36:24.556  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-12-17 17:36:24.568  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 12 ms
+2016-12-17 17:36:24.598  INFO 88989 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-17 17:36:24.692 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_
+2016-12-17 17:36:24.723 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:24.730 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:24.731 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:24.733 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:24.734 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:24.736 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:24.763 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:24.764 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:24.765 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:24.767 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:24.769 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:24.770 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:24.774 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:24.825 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:24.909 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:24.915 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:24.917 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:24.918 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:24.945 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:24.947 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:24.951 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.009 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.151 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.153 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.154 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.157 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.200 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.203 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.204 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.205 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.212 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.214 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.216 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.217 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.226 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.227 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.229 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.230 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.239 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.email=?
+2016-12-17 17:36:25.240 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.241 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.242 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.250 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.252 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.253 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.254 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.257 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.312  INFO 88989 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-12-17 17:36:25.312  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-12-17 17:36:25.315  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 3 ms
+2016-12-17 17:36:25.317 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_
+2016-12-17 17:36:25.319 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.320 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.322 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.323 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.325 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.326 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.329 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.330 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.332 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.334 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.335 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.336 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.337 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.338 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.371 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.373 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.374 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.375 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.404 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.407 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.408 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.409 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.440 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.442 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.443 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.445 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.459 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.461 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.462 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.463 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.469 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.470 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.471 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.473 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.479 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.481 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.482 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.484 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.490 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.email=?
+2016-12-17 17:36:25.491 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.493 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.494 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.500 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.501 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.502 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.503 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.506 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.527  INFO 88989 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-12-17 17:36:25.527  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-12-17 17:36:25.531  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+2016-12-17 17:36:25.533 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_
+2016-12-17 17:36:25.536 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.538 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.539 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.541 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.542 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.543 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.546 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.547 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.549 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.550 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.551 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.552 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.553 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.554 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.581 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.583 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.584 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.585 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.613 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.615 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.616 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.617 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.648 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.652 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.654 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.655 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.664 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.667 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.668 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.669 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.676 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.677 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.678 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.679 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.687 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:25.689 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.690 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.692 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.697 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.email=?
+2016-12-17 17:36:25.698 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.700 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.701 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.726 DEBUG 88989 --- [main] org.hibernate.SQL                        : select count(post0_.post_id) as col_0_0_ from posts post0_
+2016-12-17 17:36:25.757  INFO 88989 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-12-17 17:36:25.757  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-12-17 17:36:25.764  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 7 ms
+2016-12-17 17:36:25.768 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_
+2016-12-17 17:36:25.771 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.774 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.775 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.776 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.778 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.779 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.781 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.782 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.783 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.784 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.785 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.786 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.787 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.788 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.822 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.824 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.825 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.826 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.855 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.857 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.859 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.860 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.894  INFO 88989 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-12-17 17:36:25.894  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-12-17 17:36:25.897  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 3 ms
+2016-12-17 17:36:25.900 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_
+2016-12-17 17:36:25.902 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.903 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.906 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.907 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:25.908 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:25.909 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:25.910 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.911 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.911 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.912 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:25.913 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:25.914 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:25.915 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.916 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:25.943 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.945 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.945 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.946 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:25.974 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:25.976 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:25.977 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:25.978 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:26.003 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:26.004 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:26.006 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:26.007 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:26.011 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:26.012 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:26.014 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:26.015 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:26.020 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:26.021 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:26.022 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:26.022 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:26.026 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.client_id=?
+2016-12-17 17:36:26.027 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:26.028 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:26.029 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:26.033 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_ where user0_.email=?
+2016-12-17 17:36:26.035 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:26.036 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:26.036 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:26.052  INFO 88989 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-12-17 17:36:26.052  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-12-17 17:36:26.056  INFO 88989 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+2016-12-17 17:36:26.059 DEBUG 88989 --- [main] org.hibernate.SQL                        : select user0_.user_id as user_id1_4_, user0_.client_id as client_i2_4_, user0_.create_date as create_d3_4_, user0_.email as email4_4_, user0_.enabled as enabled5_4_, user0_.first_name as first_na6_4_, user0_.last_name as last_nam7_4_, user0_.modification_date as modifica8_4_, user0_.password as password9_4_, user0_.secret as secret10_4_, user0_.version as version11_4_ from users user0_
+2016-12-17 17:36:26.061 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:26.063 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:26.064 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:26.065 DEBUG 88989 --- [main] org.hibernate.SQL                        : select userroles0_.user_user_id as user_use1_3_0_, userroles0_.user_roles as user_rol2_3_0_ from user_roles userroles0_ where userroles0_.user_user_id=?
+2016-12-17 17:36:26.067 DEBUG 88989 --- [main] org.hibernate.SQL                        : select scopes0_.user_user_id as user_use1_2_0_, scopes0_.scopes as scopes2_2_0_ from scopes scopes0_ where scopes0_.user_user_id=?
+2016-12-17 17:36:26.068 DEBUG 88989 --- [main] org.hibernate.SQL                        : select granttypes0_.user_user_id as user_use1_0_0_, granttypes0_.grant_types as grant_ty2_0_0_ from grant_types granttypes0_ where granttypes0_.user_user_id=?
+2016-12-17 17:36:26.069 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:26.070 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:26.071 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:26.071 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from grant_types where user_user_id=?
+2016-12-17 17:36:26.072 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from scopes where user_user_id=?
+2016-12-17 17:36:26.073 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from user_roles where user_user_id=?
+2016-12-17 17:36:26.074 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:26.074 DEBUG 88989 --- [main] org.hibernate.SQL                        : delete from users where user_id=? and version=?
+2016-12-17 17:36:26.103 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:26.104 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:26.105 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:26.106 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:26.136 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into users (client_id, create_date, email, enabled, first_name, last_name, modification_date, password, secret, version) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2016-12-17 17:36:26.137 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into grant_types (user_user_id, grant_types) values (?, ?)
+2016-12-17 17:36:26.138 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into scopes (user_user_id, scopes) values (?, ?)
+2016-12-17 17:36:26.139 DEBUG 88989 --- [main] org.hibernate.SQL                        : insert into user_roles (user_user_id, user_roles) values (?, ?)
+2016-12-17 17:36:26.169  INFO 88989 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1972e513: startup date [Sat Dec 17 17:36:18 CET 2016]; root of context hierarchy
+2016-12-17 17:36:26.172  INFO 88989 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-12-17 17:36:26.179  INFO 88989 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
